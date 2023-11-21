@@ -59,6 +59,73 @@ button:hover {
   color: white;
 }
 
+
+/* section about */
+
+#our-story{
+  height: 30rem;
+  background-color: inherit;
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  max-width: 60%;
+  justify-content: center;
+  align-content: center;
+  font-family: 'Inter';
+  margin-left: auto;
+  margin-right: auto; 
+}
+.our-story > h2{
+  margin-top: -2rem;
+  margin-left: 4rem;
+  margin-bottom: 1.5rem;
+  /* margin: 2rem 0 1.5rem 4rem; */
+  font-size: 2em;
+}
+.our-story > P{
+  margin: 0 0 1.8rem 4rem;
+ 
+  color: gray;
+
+}
+.our-story > button{
+  margin-left: 4rem;
+}
+.logo-big{
+  background-image: url(images/png/logo-big.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: contain;
+}
+#video{
+  height: 40rem;
+  background-image: url(images/assets/bgk-middle.png);
+  background-repeat: no-repeat;
+  display: grid;
+  background-size: cover;
+  align-content: center;
+  justify-content: center;
+}
+.youtube{
+  background-image: url(images/png/play.png);
+  background-repeat: no-repeat; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 7rem;
+  
+}
+#video > b{
+  margin-top: 1.5em;
+  color: white;
+  font-weight: bold;
+}
+
+
+
+
+
+
 #expertise {
   display: flex;
   flex-direction: column;
