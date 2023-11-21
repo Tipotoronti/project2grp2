@@ -5,9 +5,9 @@
 }
 
 * {
-margin: 0;
-padding: 0;
-font: inherit;
+  margin: 0;
+  padding: 0;
+  font: inherit;
 }
 
 img,
@@ -28,15 +28,19 @@ select {
 body {
   min-height: 100vh;
   background-color: whitesmoke;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
-h1, h2, h3, h4, h5{
-  font-family: 'DM Serif Display', serif;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "DM Serif Display", serif;
 }
 /* section content width 60% */
 
-#hero{
+#hero {
   border: 1px solid #000;
   max-width: 60%;
   margin: 0 auto;
@@ -54,4 +58,26 @@ button {
 button:hover {
   background-color: aqua;
   color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 6rem;
+  background-color: rgb(65, 64, 152);
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 1.7rem;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
 }
