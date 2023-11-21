@@ -32,7 +32,7 @@ html {
 body {
   min-height: 100vh;
   background-color: whitesmoke;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 h1,
@@ -40,12 +40,12 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'DM Serif Display', serif;
+  font-family: "DM Serif Display", serif;
 }
 
 /* section content width 60% */
 
-#hero{
+#hero {
   border: 1px solid #000;
   max-width: 60%;
   margin: 0 auto;
@@ -71,7 +71,7 @@ button:hover {
   max-width: 60%;
   justify-content: center;
   align-items: center;
-  font-family: 'Inter';
+  font-family: "Inter";
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -114,7 +114,6 @@ hr {
   align-self: baseline;
 }
 
-
 .container-expertise1 img,
 .container-expertise2 img {
   display: block;
@@ -126,7 +125,7 @@ hr {
 .container-expertise1 h4,
 .container-expertise2 h4 {
   font-weight: bold;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   padding-bottom: 1rem;
   /* margin-bottom: 1rem; */
 }
@@ -183,7 +182,9 @@ hr {
 
 .team-container h4 {
   font-weight: bold;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   padding-bottom: 1rem;
   padding-top: 1rem;
 }
+
+/* Hello */
