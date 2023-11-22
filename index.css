@@ -374,3 +374,86 @@ header {
 .company-logos img{
   width: 35%;
 }
+
+footer{
+  background-image: url("images/assets/bgk-footer.png");
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.footer-content{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 2fr 1fr;
+  width: 60%;
+  margin: 0rem auto;
+  padding: 5rem 0;
+  font-size: 0.8rem;
+}
+
+
+.footer-heading-left{
+  grid-row: 1/2;
+  grid-column: 1/2;
+}
+
+.footer-left-body{
+  grid-row: 2/3;
+  grid-column: 1/2;
+}
+
+.footer-left-list{
+  grid-row: 3/4;
+  grid-column: 1/2;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.footer-content p{
+  line-height: 1.5rem;
+}
+
+.footer-left-list a{
+  text-decoration: none;
+  color: inherit;  
+  align-self: center
+}
+
+
+.footer-heading-mid{
+  grid-row: 1/2;
+  grid-column: 2/3;
+}
+
+.footer-mid-contact{
+  grid-row: 2/4;
+  grid-column: 2/3;
+}
+
+
+.footer-heading-right{
+  grid-row: 1/2;
+  grid-column: 3/4;
+}
+
+.footer-right-body{
+  grid-row: 2/3;
+  grid-column: 3/4;
+}
+
+.footer-right-cp{
+  grid-row: 3/4;
+  grid-column: 3/4;
+  align-self: end;
+}
+
+
+.footer-icon-list{
+  display: flex;
+}
+
+.footer-heading-left, .footer-heading-mid, .footer-heading-right{
+  align-self: center;
+  margin-bottom: 1.5rem;
+}
