@@ -378,13 +378,20 @@ header {
 footer{
   background-image: url("images/assets/bgk-footer.png");
   background-repeat: no-repeat;
+  background-size: cover;
   color: white;
 }
 
 .footer-content{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 2fr 1fr;
+  grid-template: repeat(4, 1fr) / repeat(3, 1fr);
+  grid-template-areas: 
+    "header-l header-m header-r"
+    "content-l content-m content-r"
+    "content-l content-m content-r"
+    "footer-l footer-m footer-r"
+  ;
+  gap: 1rem;
   width: 60%;
   margin: 0rem auto;
   padding: 5rem 0;
@@ -392,19 +399,7 @@ footer{
 }
 
 
-.footer-heading-left{
-  grid-row: 1/2;
-  grid-column: 1/2;
-}
-
-.footer-left-body{
-  grid-row: 2/3;
-  grid-column: 1/2;
-}
-
-.footer-left-list{
-  grid-row: 3/4;
-  grid-column: 1/2;
+.grid-footer-left-list{
   display: flex;
   justify-content: space-between;
 
@@ -414,46 +409,47 @@ footer{
   line-height: 1.5rem;
 }
 
-.footer-left-list a{
+.grid-footer-left-list a{
   text-decoration: none;
   color: inherit;  
-  align-self: center
-}
-
-
-.footer-heading-mid{
-  grid-row: 1/2;
-  grid-column: 2/3;
-}
-
-.footer-mid-contact{
-  grid-row: 2/4;
-  grid-column: 2/3;
-}
-
-
-.footer-heading-right{
-  grid-row: 1/2;
-  grid-column: 3/4;
-}
-
-.footer-right-body{
-  grid-row: 2/3;
-  grid-column: 3/4;
-}
-
-.footer-right-cp{
-  grid-row: 3/4;
-  grid-column: 3/4;
   align-self: end;
 }
-
 
 .footer-icon-list{
   display: flex;
 }
 
-.footer-heading-left, .footer-heading-mid, .footer-heading-right{
-  align-self: center;
-  margin-bottom: 1.5rem;
+.grid-footer-heading-left{
+  grid-area: header-l;
 }
+
+.grid-footer-left-body{
+  grid-area: content-l;
+}
+.grid-footer-left-list{
+  grid-area: footer-l;
+}
+
+.grid-footer-heading-mid{
+  grid-area: header-m;
+}
+
+.grid-footer-mid-contact{
+  grid-area: content-m;
+}
+
+.grid-footer-heading-right{
+  grid-area: header-r;
+}
+
+.grid-footer-right-body{
+  grid-area: content-r;
+}
+.grid-footer-right-cp{
+  grid-area: footer-r;
+}
+
+/* .grid-footer-column{
+  display: grid;
+  grid-row: span 3;
+} */
