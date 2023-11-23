@@ -382,6 +382,8 @@ header {
   display: flex;
   align-items: center;
   gap: 0.6rem;
+}
+.logo span {
   font-size: 2rem;
   background: #0ecfc9;
   background: linear-gradient(to right, #0ecfc9 44%, #126a8a 100%);
