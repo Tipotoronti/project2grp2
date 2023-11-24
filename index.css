@@ -142,8 +142,8 @@ button:hover {
 }
 
 #expertise hr {
-  width: 4rem;
-  border: 1px solid black;
+  width: 3rem;
+  border: 1px solid rgb(179, 179, 179);
   margin-left: auto;
   margin-right: auto;
   margin-top: 1rem;
@@ -180,8 +180,8 @@ button:hover {
   flex-wrap: wrap;
   padding: 1rem;
   align-self: baseline;
-  border-bottom: #e0e0e0 2px solid;
-  border-right: #e0e0e0 2px solid;
+  border-bottom: #e0e0e0 1px solid;
+  border-right: #e0e0e0 1px solid;
 }
 
 .flex-item2 {
@@ -190,8 +190,8 @@ button:hover {
   flex-wrap: wrap;
   padding: 1rem;
   align-self: baseline;
-  border-bottom: #e0e0e0 2px solid;
-  border-right: #e0e0e0 2px solid;
+  border-bottom: #e0e0e0 1px solid;
+  border-right: #e0e0e0 1px solid;
 }
 
 .flex-item3 {
@@ -200,7 +200,7 @@ button:hover {
   flex-wrap: wrap;
   padding: 1rem;
   align-self: baseline;
-  border-bottom: #e0e0e0 2px solid;
+  border-bottom: #e0e0e0 1px solid;
 }
 
 .flex-item4 {
@@ -209,7 +209,7 @@ button:hover {
   flex-wrap: wrap;
   padding: 1rem;
   align-self: baseline;
-  border-right: #e0e0e0 2px solid;
+  border-right: #e0e0e0 1px solid;
 }
 
 .flex-item5 {
@@ -218,7 +218,7 @@ button:hover {
   flex-wrap: wrap;
   padding: 1rem;
   align-self: baseline;
-  border-right: #e0e0e0 2px solid;
+  border-right: #e0e0e0 1px solid;
 }
 
 .flex-item6 {
@@ -270,12 +270,13 @@ button:hover {
 }
 
 .hr-white {
-  width: 4rem;
+  width: 3rem;
   border: 1px solid whitesmoke;
   margin-left: auto;
   margin-right: auto;
   margin-top: 1rem;
   margin-bottom: 2rem;
+  opacity: 0.3;
 }
 
 .team-container {
@@ -287,10 +288,10 @@ button:hover {
 }
 
 .team {
-  height: auto;
+  height: 300px;
   flex-wrap: wrap;
   align-self: center;
-  border: 1px solid whitesmoke;
+  border: 1px solid rgb(206, 206, 206);
   width: 200px;
   padding-bottom: 1rem;
   margin-bottom: 1rem;
@@ -302,6 +303,10 @@ button:hover {
   height: auto;
 }
 
+.team p {
+  transform: translateY(-1rem);
+}
+
 .teamname {
   padding: 2rem;
 }
@@ -309,8 +314,19 @@ button:hover {
 .team-container h4 {
   font-weight: bold;
   font-family: "Inter", sans-serif;
-  padding-bottom: 1rem;
+  /* padding-bottom: 1rem; */
   padding-top: 1rem;
+}
+
+#meet h3 {
+  color: rgb(179, 179, 179);
+  font-size: 0.8rem;
+
+}
+
+#expertise h3 {
+  color: rgb(110, 110, 110);
+  font-size: 0.8rem;
 }
 
 /* Nav */
@@ -551,27 +567,27 @@ footer {
 
 @media screen and (max-width: 1250px) {
   .flex-item {
-    border-right: #e0e0e0 2px solid;
-    border-bottom: #e0e0e0 2px solid;
+    border-right: #e0e0e0 1px solid;
+    border-bottom: #e0e0e0 1px solid;
   }
 
   .flex-item2 {
     border-right: none;
-    border-bottom: #e0e0e0 2px solid;
+    border-bottom: #e0e0e0 1px solid;
   }
 
   .flex-item3 {
-    border-right: #e0e0e0 2px solid;
-    border-bottom: #e0e0e0 2px solid;
+    border-right: #e0e0e0 1px solid;
+    border-bottom: #e0e0e0 1px solid;
   }
 
   .flex-item4 {
     border-right: none;
-    border-bottom: #e0e0e0 2px solid;
+    border-bottom: #e0e0e0 1px solid;
   }
 
   .flex-item5 {
-    border-right: #e0e0e0 2px solid;
+    border-right: #e0e0e0 1px solid;
     border-bottom: none;
   }
 
@@ -581,27 +597,27 @@ footer {
 @media screen and (max-width: 834px) {
   .flex-item {
     border-right: none;
-    border-bottom: #e0e0e0 2px solid;
+    border-bottom: #e0e0e0 1px solid;
   }
 
   .flex-item2 {
     border-right: none;
-    border-bottom: #e0e0e0 2px solid;
+    border-bottom: #e0e0e0 1px solid;
   }
 
   .flex-item3 {
     border-right: none;
-    border-bottom: #e0e0e0 2px solid;
+    border-bottom: #e0e0e0 1px solid;
   }
 
   .flex-item4 {
     border-right: none;
-    border-bottom: #e0e0e0 2px solid;
+    border-bottom: #e0e0e0 1px solid;
   }
 
   .flex-item5 {
     border-right: none;
-    border-bottom: #e0e0e0 2px solid;
+    border-bottom: #e0e0e0 1px solid;
   }
 
   .flex-item6 {}
