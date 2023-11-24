@@ -12,9 +12,3 @@ closeBtn.addEventListener("click", () => {
   navBar.style.transition = "none";
 });
 
-const navbarLinks = navBar.querySelectorAll("a");
-navbarLinks.forEach((element) => {
-  element.addEventListener("click", () => {
-    navBar.style.transform = "translateX(-200%)";
-  });
-});
