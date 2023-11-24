@@ -74,7 +74,7 @@ button:hover {
   margin-right: auto;
 }
 
-.our-story > h2 {
+.our-story>h2 {
   margin-top: -2rem;
   margin-left: 4rem;
   margin-bottom: 1.5rem;
@@ -82,13 +82,13 @@ button:hover {
   font-size: 2em;
 }
 
-.our-story > P {
+.our-story>P {
   margin: 0 0 1.8rem 4rem;
 
   color: gray;
 }
 
-.our-story > button {
+.our-story>button {
   margin-left: 4rem;
 }
 
@@ -120,7 +120,7 @@ button:hover {
   margin-left: 1.6rem;
 }
 
-#video > b {
+#video>b {
   margin-top: 1.5em;
   color: white;
   font-weight: bold;
@@ -161,6 +161,7 @@ button:hover {
   justify-content: center;
   align-items: baseline;
   flex-wrap: wrap;
+  max-width: 750px;
 }
 
 .container-expertise2 {
@@ -170,6 +171,7 @@ button:hover {
   justify-content: center;
   align-items: baseline;
   flex-wrap: wrap;
+  max-width: 750px;
 }
 
 .flex-item {
@@ -383,6 +385,7 @@ header {
   align-items: center;
   gap: 0.6rem;
 }
+
 .logo span {
   font-size: 2rem;
   background: #0ecfc9;
@@ -572,8 +575,7 @@ footer {
     border-bottom: none;
   }
 
-  .flex-item6 {
-  }
+  .flex-item6 {}
 }
 
 @media screen and (max-width: 834px) {
@@ -602,6 +604,5 @@ footer {
     border-bottom: #e0e0e0 2px solid;
   }
 
-  .flex-item6 {
-  }
+  .flex-item6 {}
 }
