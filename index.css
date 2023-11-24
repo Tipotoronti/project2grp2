@@ -156,7 +156,6 @@ button:hover {
 
 #expertise h2 {
   font-size: 1.4rem;
-  letter-spacing: 0.05em;
 }
 
 .container-expertise1 {
@@ -272,7 +271,6 @@ button:hover {
 #meet h2 {
   padding-top: 2rem;
   font-size: 1.5rem;
-  letter-spacing: 0.075em;
 }
 
 .hr-white {
@@ -326,14 +324,12 @@ button:hover {
 
 #meet h3 {
   color: rgb(179, 179, 179);
-  font-size: 1rem;
-  letter-spacing: 0.075em;
+  font-size: 0.8rem;
 }
 
 #expertise h3 {
   color: rgb(110, 110, 110);
-  font-size: 1rem;
-  letter-spacing: 0.075em;
+  font-size: 0.8rem;
 }
 
 /* Nav */
@@ -503,7 +499,7 @@ textarea {
   justify-content: space-between;
   align-items: center;
   gap: 3em;
-
+}
 
 .img-container {
   width: 35%;
@@ -513,7 +509,6 @@ textarea {
 .img-container * {
   margin: 0 auto;
 }
-
 .company-logos img {
   max-width: 150px;
   max-height: 85px;
